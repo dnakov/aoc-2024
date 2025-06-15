@@ -2,6 +2,8 @@
 
 My solutions for [Advent of Code 2024](https://adventofcode.com/2024) written in C.
 
+This repository contains a complete framework for solving Advent of Code challenges, including utilities for fetching inputs, submitting answers, and building C solutions.
+
 ## Setup
 
 1. Clone this repository
@@ -61,17 +63,45 @@ aoc2024/
 
 ## Progress
 
-| Day | Part 1 | Part 2 | Write-up |
-|-----|--------|--------|----------|
-| 01  | ⬜     | ⬜     | ⬜       |
-| 02  | ⬜     | ⬜     | ⬜       |
-| 03  | ⬜     | ⬜     | ⬜       |
-| 04  | ⬜     | ⬜     | ⬜       |
-| 05  | ⬜     | ⬜     | ⬜       |
-| ... | ...    | ...    | ...      |
-| 25  | ⬜     | ⬜     | ⬜       |
+| Day | Part 1 | Part 2 | Name | Notes |
+|-----|--------|--------|------|-------|
+| 01  | ⬜     | ⬜     | | |
+| 02  | ⬜     | ⬜     | | |
+| 03  | ⬜     | ⬜     | | |
+| 04  | ⬜     | ⬜     | | |
+| 05  | ⬜     | ⬜     | | |
+| 06  | ⬜     | ⬜     | | |
+| 07  | ⬜     | ⬜     | | |
+| 08  | ⬜     | ⬜     | | |
+| 09  | ⬜     | ⬜     | | |
+| 10  | ⬜     | ⬜     | | |
+| 11  | ⬜     | ⬜     | | |
+| 12  | ⬜     | ⬜     | | |
+| 13  | ⬜     | ⬜     | | |
+| 14  | ⬜     | ⬜     | | |
+| 15  | ✅     | ✅     | Warehouse Woes | Sokoban-style box pushing puzzle |
+| 16  | ⬜     | ⬜     | | |
+| 17  | ⬜     | ⬜     | | |
+| 18  | ⬜     | ⬜     | | |
+| 19  | ⬜     | ⬜     | | |
+| 20  | ⬜     | ⬜     | | |
+| 21  | ⬜     | ⬜     | | |
+| 22  | ⬜     | ⬜     | | |
+| 23  | ⬜     | ⬜     | | |
+| 24  | ⬜     | ⬜     | | |
+| 25  | ⬜     | ⬜     | | |
 
-## Helper Functions
+**Total Stars:** 2/50 ⭐⭐
+
+## Features
+
+### Framework
+- **Automatic Input Fetching**: Download puzzle inputs directly from AoC
+- **Answer Submission**: Submit solutions without leaving the terminal
+- **Template Generation**: Quickly create boilerplate for new days
+- **Batch Operations**: Build and run all solutions at once
+
+### Helper Functions
 
 The `include/aoc.h` header provides common utilities:
 - File reading and line parsing
@@ -80,3 +110,15 @@ The `include/aoc.h` header provides common utilities:
 - Grid utilities for 2D problems
 - Queue implementation for BFS
 - Math utilities (GCD, LCM, min/max)
+
+## Solutions
+
+### Day 15: Warehouse Woes
+A Sokoban-style puzzle where a robot pushes boxes in a warehouse. Implemented with:
+- Recursive box chain pushing
+- GPS coordinate calculation
+- Part 2: Wide warehouse with double-width boxes
+
+## License
+
+This project is open source and available under the MIT License.
