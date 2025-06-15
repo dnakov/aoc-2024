@@ -1,6 +1,8 @@
 # Advent of Code 2024 🎄
 
-My solutions for [Advent of Code 2024](https://adventofcode.com/2024) written in C.
+**All 50 stars achieved!** 🌟
+
+My complete solutions for [Advent of Code 2024](https://adventofcode.com/2024) written in C.
 
 This repository contains a complete framework for solving Advent of Code challenges, including utilities for fetching inputs, submitting answers, and building C solutions.
 
@@ -65,33 +67,33 @@ aoc2024/
 
 | Day | Part 1 | Part 2 | Name | Notes |
 |-----|--------|--------|------|-------|
-| 01  | ⬜     | ⬜     | | |
-| 02  | ⬜     | ⬜     | | |
-| 03  | ⬜     | ⬜     | | |
-| 04  | ⬜     | ⬜     | | |
-| 05  | ⬜     | ⬜     | | |
-| 06  | ⬜     | ⬜     | | |
-| 07  | ⬜     | ⬜     | | |
-| 08  | ⬜     | ⬜     | | |
-| 09  | ⬜     | ⬜     | | |
-| 10  | ⬜     | ⬜     | | |
-| 11  | ⬜     | ⬜     | | |
-| 12  | ⬜     | ⬜     | | |
-| 13  | ⬜     | ⬜     | | |
-| 14  | ⬜     | ⬜     | | |
+| 01  | ✅     | ✅     | Historian Hysteria | List distance and similarity calculations |
+| 02  | ✅     | ✅     | Red-Nosed Reports | Safe sequence detection with dampener |
+| 03  | ✅     | ✅     | Mull It Over | Regex parsing and conditional multiplication |
+| 04  | ✅     | ✅     | Ceres Search | Word search and X-MAS patterns |
+| 05  | ✅     | ✅     | Print Queue | Topological sorting with page ordering rules |
+| 06  | ✅     | ✅     | Guard Gallivant | Path tracing and loop detection |
+| 07  | ✅     | ✅     | Bridge Repair | Expression evaluation with operators |
+| 08  | ✅     | ✅     | Resonant Collinearity | Antenna antinode calculations |
+| 09  | ✅     | ✅     | Disk Fragmenter | File system defragmentation |
+| 10  | ✅     | ✅     | Hoof It | Trail rating and path counting |
+| 11  | ✅     | ✅     | Plutonian Pebbles | Stone transformation with memoization |
+| 12  | ✅     | ✅     | Garden Groups | Region perimeter and side counting |
+| 13  | ✅     | ✅     | Claw Contraption | Linear equation solving for prizes |
+| 14  | ✅     | ✅     | Restroom Redoubt | Robot movement simulation |
 | 15  | ✅     | ✅     | Warehouse Woes | Sokoban-style box pushing puzzle |
-| 16  | ⬜     | ⬜     | | |
-| 17  | ⬜     | ⬜     | | |
-| 18  | ⬜     | ⬜     | | |
-| 19  | ⬜     | ⬜     | | |
-| 20  | ⬜     | ⬜     | | |
-| 21  | ⬜     | ⬜     | | |
-| 22  | ⬜     | ⬜     | | |
-| 23  | ⬜     | ⬜     | | |
-| 24  | ⬜     | ⬜     | | |
-| 25  | ⬜     | ⬜     | | |
+| 16  | ✅     | ✅     | Reindeer Maze | Dijkstra's algorithm with rotation costs |
+| 17  | ✅     | ✅     | Chronospatial Computer | VM implementation and reverse engineering |
+| 18  | ✅     | ✅     | RAM Run | Grid pathfinding with falling bytes |
+| 19  | ✅     | ✅     | Linen Layout | Pattern matching with dynamic programming |
+| 20  | ✅     | ✅     | Race Condition | Shortest path with cheating mechanics |
+| 21  | ✅     | ✅     | Keypad Conundrum | Nested robot control optimization |
+| 22  | ✅     | ✅     | Monkey Market | Pseudo-random sequence analysis |
+| 23  | ✅     | ✅     | LAN Party | Graph cliques and network analysis |
+| 24  | ✅     | ✅     | Crossed Wires | Boolean circuit simulation |
+| 25  | ✅     | ✅     | Code Chronicle | Lock and key matching |
 
-**Total Stars:** 2/50 ⭐⭐
+**Total Stars:** 50/50 ⭐🌟 **COMPLETE!** 🌟⭐
 
 ## Features
 
@@ -111,13 +113,29 @@ The `include/aoc.h` header provides common utilities:
 - Queue implementation for BFS
 - Math utilities (GCD, LCM, min/max)
 
-## Solutions
+## Solution Highlights
 
 ### Day 15: Warehouse Woes
 A Sokoban-style puzzle where a robot pushes boxes in a warehouse. Implemented with:
 - Recursive box chain pushing
 - GPS coordinate calculation
 - Part 2: Wide warehouse with double-width boxes
+
+### Day 17: Chronospatial Computer
+Virtual machine implementation with reverse engineering:
+- Custom instruction set simulation
+- Part 2: Finding quine programs through analysis
+
+### Day 21: Keypad Conundrum
+Multi-level robot control optimization:
+- Directional keypad sequence generation
+- Nested robot control with memoization
+- Optimal path finding for button sequences
+
+### Day 24: Crossed Wires
+Boolean circuit simulation and analysis:
+- Gate evaluation with topological sorting
+- Circuit debugging and wire swapping
 
 ## License
 
